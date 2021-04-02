@@ -9,7 +9,7 @@
 + Lastly, we evaluated the results from different classification models based on certain metrics and chose the best model for this task.
 
 ## Evaluation Metrics
-+ Considering the high imbalance of the dataset, accuracy of the model is evaluated based on the following metrics:\
+Considering the high imbalance of the dataset, accuracy of the model is evaluated based on the following metrics:\
 #### Confusion Matrix
 + Three scores are considered: **Precision score**, **Recall** score and **F1 score**.
 + They are computed as follows:\
