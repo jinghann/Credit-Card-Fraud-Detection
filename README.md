@@ -1,6 +1,6 @@
 # CZ4032-Data-Mining-and-Analytics
-## Programming language: Python
-## IDE: Jupyter Notebook
+### Programming language: Python
+### IDE: Jupyter Notebook
 ## Overview
 + This project performs data mining and analysis on the credit card transactions dataset obtained from Kaggle. Some popular data mining techniques were explored and adopted to find patterns in the data and thus to detect fraudulence from transactions. 
 + The task is broken down into three steps - data preprocessing, building classification models and results evaluation. 
