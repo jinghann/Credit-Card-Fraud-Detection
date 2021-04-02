@@ -1,7 +1,7 @@
 # CZ4032-Data-Mining-and-Analytics
 ### Programming language: Python
 ### IDE: Jupyter Notebook
-## Overview
+## Project Overview
 + This project performs data mining and analysis on the credit card transactions dataset obtained from Kaggle. Some popular data mining techniques were explored and adopted to find patterns in the data and thus to detect fraudulence from transactions. 
 + The task is broken down into three steps - data preprocessing, building classification models and results evaluation. 
 + In data preprocessing, we explored the dataset and mainly performed **outlier removal**, **feature selection** and **data oversampling**, which provides the final training and testing sets to various classification models. 
@@ -22,13 +22,17 @@ Considering the high imbalance of the dataset, accuracy of the model is evaluate
 + In addition, there is a trade-off between precision score and recall score. In this project, in order to detect as many fraud transactions as possible, we will focus more on recall than precision.
 
 
-### Dataset
+## Dataset
 #### Download the credit card transaction dataset from Kaggle website as `creditcard.csv`
 + https://www.kaggle.com/mlg-ulb/creditcardfraud
 
+#### Create a folder named `dataset` under `code` folder, which will contain the following files:
++ creditcard.csv : The original dataset from Kaggle.
++ training.csv : The training set generated after data preprocessing. 
++ testing.csv : The testing set generated after data preprocessing.
 
-### There are five IPython notebooks implemented for this project.
-Each notebook can be run independently.
+## File Structure
+There are five IPython notebooks implemented for this project. Each notebook can be run independently.\
 To reproduce the results for a specific section, run the corresponding notebook.
 
 + data_preprocessing.ipynb : containing code for data preprocessing.
@@ -38,8 +42,3 @@ To reproduce the results for a specific section, run the corresponding notebook.
 + ann.ipynb : containing code for implementing artificial neuron models.
 
 
-
-#### Create a folder named `dataset` under `code` folder, which will contain the following files:
-+ creditcard.csv : The original dataset from Kaggle.
-+ training.csv : The training set generated after data preprocessing. 
-+ testing.csv : The testing set generated after data preprocessing.
