@@ -1,5 +1,5 @@
-# CZ4032-Data-Mining-and-Analytics
 # Credit Card Fraud Detection
+This project was carried out during the course of NTU CZ4032 in AY20/21 Sem1.
 ### Programming language: Python
 ### IDE: Jupyter Notebook
 ## Project Overview
